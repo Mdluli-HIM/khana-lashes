@@ -7,20 +7,22 @@ export default function ContentSection() {
         <h2 className="relative z-10 max-w-xl text-4xl font-medium lg:text-5xl">
           The Lyra ecosystem brings together our models.
         </h2>
+
         <div className="grid gap-6 sm:grid-cols-2 md:gap-12 lg:gap-24">
           <div className="relative mb-6 sm:mb-0">
             <div className="bg-linear-to-b aspect-76/59 relative rounded-none from-zinc-300 to-transparent p-px dark:from-zinc-700">
               <Image
                 src="/IMG_0795.jpg"
                 className="rounded-none dark:block"
-                alt="payments illustration dark"
+                alt="Payments illustration dark"
                 width={1207}
                 height={929}
               />
+
               <Image
                 src="/IMG_0795.jpg"
                 className="rounded-none shadow dark:hidden"
-                alt="payments illustration light"
+                alt="Payments illustration light"
                 width={1207}
                 height={929}
               />
@@ -35,28 +37,31 @@ export default function ContentSection() {
               </span>{" "}
               — from products innovate.
             </p>
+
             <p className="text-muted-foreground">
               It supports an entire ecosystem — from products to the APIs and
-              platforms helping developers and businesses innovate
+              platforms helping developers and businesses innovate.
             </p>
 
             <div className="pt-6">
-              <blockquote className="border-l-4 pl-4 rounded-none">
+              <blockquote className="rounded-none border-l-4 pl-4">
                 <p>
                   Using TailsUI has been like unlocking a secret design
-                  superpower. It's the perfect fusion of simplicity and
+                  superpower. It&apos;s the perfect fusion of simplicity and
                   versatility, enabling us to create UIs that are as stunning as
                   they are user-friendly.
                 </p>
 
                 <div className="mt-6 space-y-3">
                   <cite className="block font-medium">John Doe, CEO</cite>
-                  <img
-                    className="h-5 w-fit dark:invert"
+
+                  <Image
                     src="https://html.tailus.io/blocks/customers/nvidia.svg"
                     alt="Nvidia Logo"
-                    height="20"
-                    width="auto"
+                    width={100}
+                    height={20}
+                    className="h-5 w-auto dark:invert"
+                    unoptimized
                   />
                 </div>
               </blockquote>
